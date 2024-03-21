@@ -31,12 +31,14 @@ body {
 /* Utility Font-Style Classes */
 .heading-L {
 	font-size: 40px;
+	font-weight: lighter;
 	line-height: 100%;
 	font-family: "Young Serif", serif;
 	color: var(--Dark-Charcoal);
 }
 .heading-M {
 	font-size: 28px;
+	font-weight: lighter;
 	line-height: 100%;
 	font-family: "Young Serif", serif;
 	color: var(--Brandy-Red);
@@ -156,8 +158,8 @@ table {
 }
 td {
 	border-bottom: 1px solid var(--White-Coffee);
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 tr:first-child td {
 	padding-top: 0;
@@ -171,7 +173,7 @@ tr td:first-child{
 tr td:nth-child(2) {
 	padding-left: 16px;
 	color: var(--Brandy-Red);
-	font-weight: bold;
+	font-weight: 500;
 }
 tr:last-child td {
 	border-bottom: none;
